@@ -1,0 +1,13 @@
+# Core dependencies from chatterbox-tts without torch/torchaudio
+numpy
+resampy
+librosa
+s3tokenizer
+transformers
+diffusers
+resemble-perth
+omegaconf
+conformer
+
+# NOTE: chatterbox-tts must be installed separately with:
+# pip install chatterbox-tts --no-deps
