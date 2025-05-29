@@ -15,7 +15,7 @@ A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice con
 1. Clone this repository into your ComfyUI custom_nodes directory:
    ```bash
    cd /path/to/ComfyUI/custom_nodes
-   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox
+   git clone https://github.com/filliptm/ComfyUI_Fill-ChatterBox.git
    ```
 
 2. Install the base dependencies:
