@@ -4,12 +4,6 @@ A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice con
 
 ![ChatterBox Example](web/image.png)
 
-## Features
-
-- **Text-to-Speech (TTS)**: Convert text to natural-sounding speech with adjustable emotion, pace, and randomness
-- **Voice Conversion (VC)**: Transform voice characteristics between audio samples
-- **ComfyUI Integration**: Custom styled nodes with purple background and teal text
-
 ## Installation
 
 1. Clone this repository into your ComfyUI custom_nodes directory:
