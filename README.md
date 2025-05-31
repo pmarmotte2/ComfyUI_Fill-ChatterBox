@@ -35,3 +35,4 @@ A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice con
 ### 5/31/2025
 - Added Persistent model loading, and loading bar functionality
 - Added Mac support (needs to be tested so HMU)
+- removed the chatterbox-tts library and implemented native inference code
