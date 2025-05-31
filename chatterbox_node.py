@@ -6,8 +6,8 @@ from pathlib import Path
 from typing import Optional
 
 # Import directly from the chatterbox package
-from chatterbox.tts import ChatterboxTTS
-from chatterbox.vc import ChatterboxVC
+from .local_chatterbox.chatterbox.tts import ChatterboxTTS
+from .local_chatterbox.chatterbox.vc import ChatterboxVC
 
 from comfy.utils import ProgressBar
 
