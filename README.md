@@ -17,12 +17,6 @@ A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice con
    pip install -r ComfyUI_Fill-ChatterBox/requirements.txt
    ```
 
-3. Install chatterbox-tts WITHOUT its dependencies:
-   ```bash
-   pip install chatterbox-tts --no-deps
-   ```
-
-   ⚠️ The `--no-deps` flag is crucial to prevent conflicts with ComfyUI's PyTorch installation!
 
 ## Usage
 
