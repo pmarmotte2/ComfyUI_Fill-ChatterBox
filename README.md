@@ -42,8 +42,7 @@ A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice con
 - Connect input audio and target voice
 - Both nodes support CPU fallback if CUDA errors occur
 
-## Requirements
+## Change Log
 
-- ComfyUI installation
-- Python 3.8+
-- CUDA-compatible GPU recommended (but not required)
+### 5/31/2025
+- Added Persistent model loading, and loading bar functionality
