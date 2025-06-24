@@ -18,6 +18,12 @@ Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the mod
    pip install -r ComfyUI_Fill-ChatterBox/requirements.txt
    ```
 
+3. (Optional) Install watermarking support:
+   ```bash
+   pip install resemble-perth
+   ```
+   **Note**: The `resemble-perth` package may have compatibility issues with Python 3.12+. If you encounter import errors, the nodes will still function without watermarking.
+
 
 ## Usage
 
@@ -37,6 +43,8 @@ Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the mod
 - Added seed parameter to both TTS and VC nodes for reproducible generation
 - Seed range: 0 to 4,294,967,295 (32-bit integer)
 - Enables consistent audio output for debugging and workflow control
+- Made Perth watermarking optional to fix Python 3.12+ compatibility issues
+- Nodes now function without watermarking if resemble-perth import fails
 
 ### 5/31/2025
 - Added Persistent model loading, and loading bar functionality
