@@ -32,6 +32,11 @@ A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice con
 
 ## Change Log
 
+### 6/24/2025
+- Added seed parameter to both TTS and VC nodes for reproducible generation
+- Seed range: 0 to 4,294,967,295 (32-bit integer)
+- Enables consistent audio output for debugging and workflow control
+
 ### 5/31/2025
 - Added Persistent model loading, and loading bar functionality
 - Added Mac support (needs to be tested so HMU)
