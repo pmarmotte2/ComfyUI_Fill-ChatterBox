@@ -1,7 +1,7 @@
 # ComfyUI_Fill-ChatterBox
 
 If you enjoy this project, consider supporting me on Patreon!
-[![Patreon](assets/Patreon.png)](https://www.patreon.com/c/Machinedelusions)
+[![Patreon](assets/Patreon.png){width=100px}](https://www.patreon.com/c/Machinedelusions)
 
 A custom node extension for ComfyUI that adds text-to-speech (TTS) and voice conversion (VC) capabilities using the Chatterbox library.
 Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the model falls apart really badly with anything longer than that, so it remains.
