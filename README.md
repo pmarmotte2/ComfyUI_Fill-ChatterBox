@@ -44,6 +44,25 @@ Supports a MAXIMUM of 40 seconds. Iv tried removing this limitation, but the mod
 - Connect input audio and target voice
 - Both nodes support CPU fallback if CUDA errors occur
 
+### Dialog TTS Node (FL Chatterbox Dialog TTS)
+- Add the "FL Chatterbox Dialog TTS" node to your workflow.
+- This node is designed to synthesize speech for dialogs with two distinct speakers (SPEAKER A and SPEAKER B).
+- **Inputs:**
+    - `dialog_text`: A multiline string where each line is prefixed by `SPEAKER A:` or `SPEAKER B:`. For example:
+      ```
+      SPEAKER A: Hello, how are you?
+      SPEAKER B: I am fine, thank you!
+      SPEAKER A: That's good to hear.
+      ```
+    - `speaker_a_prompt`: An audio prompt (AUDIO type) for SPEAKER A's voice.
+    - `speaker_b_prompt`: An audio prompt (AUDIO type) for SPEAKER B's voice.
+    - `exaggeration`: Controls emotion intensity (0.25-2.0).
+    - `cfg_weight`: Controls pace/classifier-free guidance (0.2-1.0).
+    - `temperature`: Controls randomness in generation (0.05-5.0).
+    - `use_cpu` (optional): Boolean, defaults to False. Forces CPU usage.
+    - `keep_model_loaded` (optional): Boolean, defaults to False. Keeps the model loaded in memory.
+- The node will generate a single audio file with the dialog spoken by the respective voices.
+
 ## Change Log
 
 ### 6/24/2025
